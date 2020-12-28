@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/5-CI1zqvBuz1hE9lXzpD82S6U4cjHeyped89NQrTpgxJkpP06hU-DhL92zYxeVvLDkqFt5RG76bPzQn_tLal4Fo2C4y-bf4);
+    background-repeat: repeat;
+     background-color: white;
+     background-image: linear-gradient(to right, rgb(41, 88, 189) , rgb(236, 236, 224));
+   }
+   .button {
+  border:lavender;
+  color: rgb(6, 77, 158);
+  
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 35px;
+  
+  
+}
+.menu {
+    margin-left: 50%;
+
+
+  
+  position: relative;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: rgb(0, 0, 0);">ShopLocal</h1>
+        <p style="color: rgb(3, 3, 3);">An initiative to support local products</p>
+        <div class="menu">
+         <div class="row" id="row1">
+             <button class="button" type="button" onclick="product()"># Support my bussiness</button>      
+            </div>
+         <div class="row" id="row1">
+             <button class="button" type="button" onclick="product()"># Search product</button>      
+         </div>
+         </div>
+
+<script src="redirect.js"></script>
+
+</body>
+</html>

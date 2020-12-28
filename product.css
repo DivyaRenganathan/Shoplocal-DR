@@ -1,0 +1,83 @@
+body{
+  background-image: url(https://images.financialexpress.com/2020/03/shopclues-660440.jpg);
+  /*  background-image: url("https://img.freepik.com/free-photo/woman-holding-various-shopping-bags-copy-space_23-2148674122.jpg?size=626&ext=jpg");
+   */ background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    
+  }
+.row{
+   color: black;
+   width: auto;
+   height: 200px;
+   
+}
+.button {
+  border:black;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  opacity: 0.5
+}
+#Veg{
+  
+ background-image:url(https://www.lalpathlabs.com/blog/wp-content/uploads/2019/01/Fruits-and-Vegetables.jpg);
+ background-repeat: no-repeat;
+ background-size: 70% 200px;
+}
+
+#Dairy{
+  
+  background-image:url(https://financialtribune.com/sites/default/files/field/image/08-palm%20oil.jpg);
+  background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+
+ #Bakery{
+  
+  background-image:url(https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_19384_15924910939757563.png);
+  background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+ #Jewellery{
+  
+  background-image:url(https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+ #Cloth{
+  
+  background-image:url(https://www.picsera.com/wp-content/uploads/2017/07/priscilla-du-preez-228220-e1500994475841.jpg);
+    background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+ #Footware{
+  
+  background-image:url(https://i.huffpost.com/gen/1678460/images/o-WOMEN-HIGH-HEELS-facebook.jpg);
+        background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+ #Soap{
+  
+  background-image:url(https://static01.nyt.com/images/2018/06/26/well/ask-soap1/merlin_10149422_0c5c23f0-6d18-4e3e-a21c-94870d948c98-videoSixteenByNineJumbo1600.jpg);
+    background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+ #Candle{
+  
+  background-image:url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/01/17/11/istock-994807816.jpg);
+    background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }
+ #Kitchen{
+  
+  background-image:url(https://media.istockphoto.com/vectors/kitchenware-set-kitchen-utensils-and-cutlery-vector-id1248802048);
+    background-repeat: no-repeat;
+  background-size: 70% 200px;
+ }

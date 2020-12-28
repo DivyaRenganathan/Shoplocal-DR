@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="product.css"/>
+<title>ShopLocal Product</title>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">ShopLocal</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" onclick="goBack()"
+              >Home <span class="sr-only">(current)</span></a>
+                  
+          
+        
+      </div>
+    </nav>
+  </div>
+
+<h1>Products</h1>
+<p>Please choose your product</p>
+<div class="container">
+    <div class="row" id="row1">
+      <div class="col-sm" id="Veg">
+        <button class="button" type="button"> Vegetables and Fruits</button>
+      </div>
+      <div class="col-sm" id="Dairy">
+        <button class="button" type="button" onclick="productdetails()"> Dairy Products</button> 
+        
+      </div>
+      <div class="col-sm" id="Bakery">
+        <button class="button" type="button"> Bakery products</button> 
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm" id="Jewellery">
+          <button class="button" type="button"> Bakery products</button>
+        </div>
+        <div class="col-sm" id="Cloth">
+          <button class="button" type="button">  Clothing</button>
+         
+        </div>
+        <div class="col-sm" id="Footware">
+          <button class="button" type="button"> Footware</button>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm" id="Soap">
+          <button class="button" type="button">  Soap</button>
+         
+        </div>
+        <div class="col-sm" id="Candle">
+          <button class="button" type="button">  Candles</button>
+         
+        </div>
+        <div class="col-sm" id="Kitchen">
+          <button class="button" type="button">  Kitchen Utensils</button>
+        </div>
+      </div>
+</div>
+<script src="redirect.js"></script>
+</body>
+</html>
